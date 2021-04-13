@@ -16,10 +16,10 @@ body {
 
 /* @media (mid-width: 768px) { */
 .header {
-  background-image: url(/img/W2D3.jpg);
+  background-image: url(/img/taco_cat_jumbotron.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed;
+  background-position: absolute;
   background-color: #542cb7;
 }
 
