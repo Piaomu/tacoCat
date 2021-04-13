@@ -85,7 +85,7 @@
     let userWord = document.getElementById("tacoCat").value;
 
     //Then, we need to normalize the case of the input by changing all of the text to lowercase and gutting the input of any characters that are not alphanumerical or spaces with regular expressions.
-    let cleanedWord = userWord.toLowerCase().replace(/[./\?']/, '').replaceAll(/\s/g,'');
+  let cleanedWord = userWord.toLowerCase().replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replaceAll(/\s/g,'');
 
     //We then create the variables that we will use to loop through the array of characters in the "cleaned" version of the user's input.
 
