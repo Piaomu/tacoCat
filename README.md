@@ -1,6 +1,16 @@
-# tacoCat
+# tacoCat - Palindrome Validator
 
-## Parameters of the project:
+[Live Demo](https://affectionate-khorana-cfbe7d.netlify.app/app.html) |
+[Portfolio](https://kaseywahl.io/)
+
+![tacocat](https://user-images.githubusercontent.com/77030627/115620210-7f66ea80-a2ba-11eb-910d-6a1d948ac541.png)
+---
+
+## Description
+
+This application checks whether a word or phrase is a palindrome or not.
+
+## Parameters of the Project
 
 1. Write a program that allows a user to enter a word or phrase and then prints the reverse of the input.
 2. Create a feature that determines if the word or phrase is a palindrome.
